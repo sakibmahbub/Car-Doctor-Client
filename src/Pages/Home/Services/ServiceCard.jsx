@@ -1,0 +1,22 @@
+import { FaArrowRight } from "react-icons/fa";
+const ServiceCard = ({ service }) => {
+  const { title, img, price } = service;
+  return (
+    <div className="card w-96 bg-base-100 shadow-lg">
+      <figure className="px-5 pt-5">
+        <img src={img} alt="Shoes" className="rounded-lg" />
+      </figure>
+      <div className="card-body">
+        <h2 className="card-title">{title}</h2>
+        <div className="flex justify-between mt-2">
+          <p className="font-bold text-[#FF3811]">Price: ${price}</p>
+          <button className="cursor-pointer hover:text-[#FF3811]">
+            <FaArrowRight />
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ServiceCard;
