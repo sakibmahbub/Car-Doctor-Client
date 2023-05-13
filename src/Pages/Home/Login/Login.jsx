@@ -1,6 +1,9 @@
 import img from "../../../assets/images/login/login.svg";
 
 const Login = () => {
+  const handleLogin = (event) => {
+    event.preventDefault();
+  };
   return (
     <div className="hero min-h-screen">
       <div className="hero-content flex-col lg:flex-row justify-around gap-28">
@@ -10,7 +13,7 @@ const Login = () => {
         <div className="card flex-shrink-0 w-full max-w-sm shadow-lg bg-base-100">
           <div className="card-body">
             <h1 className="text-3xl font-bold text-center mb-5">Login now!</h1>
-            <form>
+            <form onSubmit={handleLogin}>
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Email</span>
