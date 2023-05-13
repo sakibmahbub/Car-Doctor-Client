@@ -6,7 +6,7 @@ import img5 from "../../../assets/images/banner/5.jpg";
 import img6 from "../../../assets/images/banner/6.jpg";
 const Banner = () => {
   return (
-    <div className="carousel w-full h-[600px]">
+    <div className="carousel w-full h-[600px] rounded-lg">
       <div id="slide1" className="carousel-item relative w-full">
         <img src={img1} className="w-full" />
         <div className="absolute h-full flex items-center bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)] left-0 top-0">
@@ -19,8 +19,10 @@ const Banner = () => {
               majority have suffered alteration in some form
             </p>
             <div>
-              <button className="btn btn-warning mr-6">Discover More</button>
-              <button className="btn btn-outline btn-warning">
+              <button className="btn bg-[#FF3811] hover:bg-[#000000] mr-6">
+                Discover More
+              </button>
+              <button className="btn btn-outline border-white text-white hover:bg-[#FF3811]">
                 Latest Project
               </button>
             </div>
@@ -47,8 +49,10 @@ const Banner = () => {
               majority have suffered alteration in some form
             </p>
             <div>
-              <button className="btn btn-warning mr-6">Discover More</button>
-              <button className="btn btn-outline btn-warning">
+              <button className="btn bg-[#FF3811] hover:bg-[#000000] mr-6">
+                Discover More
+              </button>
+              <button className="btn btn-outline border-white text-white hover:bg-[#FF3811]">
                 Latest Project
               </button>
             </div>
@@ -75,8 +79,10 @@ const Banner = () => {
               majority have suffered alteration in some form
             </p>
             <div>
-              <button className="btn btn-warning mr-6">Discover More</button>
-              <button className="btn btn-outline btn-warning">
+              <button className="btn bg-[#FF3811] hover:bg-[#000000] mr-6">
+                Discover More
+              </button>
+              <button className="btn btn-outline border-white text-white hover:bg-[#FF3811]">
                 Latest Project
               </button>
             </div>
@@ -103,8 +109,10 @@ const Banner = () => {
               majority have suffered alteration in some form
             </p>
             <div>
-              <button className="btn btn-warning mr-6">Discover More</button>
-              <button className="btn btn-outline btn-warning">
+              <button className="btn bg-[#FF3811] hover:bg-[#000000] mr-6">
+                Discover More
+              </button>
+              <button className="btn btn-outline border-white text-white hover:bg-[#FF3811]">
                 Latest Project
               </button>
             </div>
@@ -131,8 +139,10 @@ const Banner = () => {
               majority have suffered alteration in some form
             </p>
             <div>
-              <button className="btn btn-warning mr-6">Discover More</button>
-              <button className="btn btn-outline btn-warning">
+              <button className="btn bg-[#FF3811] hover:bg-[#000000] mr-6">
+                Discover More
+              </button>
+              <button className="btn btn-outline border-white text-white hover:bg-[#FF3811]">
                 Latest Project
               </button>
             </div>
@@ -159,8 +169,10 @@ const Banner = () => {
               majority have suffered alteration in some form
             </p>
             <div>
-              <button className="btn btn-warning mr-6">Discover More</button>
-              <button className="btn btn-outline btn-warning">
+              <button className="btn bg-[#FF3811] hover:bg-[#000000] mr-6">
+                Discover More
+              </button>
+              <button className="btn btn-outline border-white text-white hover:bg-[#FF3811]">
                 Latest Project
               </button>
             </div>
