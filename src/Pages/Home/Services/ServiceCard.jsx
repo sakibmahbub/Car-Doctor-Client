@@ -11,7 +11,7 @@ const ServiceCard = ({ service }) => {
         <h2 className="card-title">{title}</h2>
         <div className="flex justify-between mt-2">
           <p className="font-bold text-[#FF3811]">Price: ${price}</p>
-          <Link to={`/checkout/${_id}`}>
+          <Link to={`/book/${_id}`}>
             <button className="cursor-pointer hover:text-[#FF3811]">
               <FaArrowRight />
             </button>
