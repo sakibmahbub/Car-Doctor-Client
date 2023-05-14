@@ -1,4 +1,5 @@
-import img from "../../../assets/images/login/login.svg";
+import { Link } from "react-router-dom";
+import img from "../../assets/images/login/login.svg";
 
 const Login = () => {
   const handleLogin = (event) => {
@@ -19,8 +20,9 @@ const Login = () => {
                   <span className="label-text">Email</span>
                 </label>
                 <input
-                  type="text"
-                  placeholder="email"
+                  type="email"
+                  placeholder="your email"
+                  name="email"
                   className="input input-bordered"
                 />
               </div>
@@ -30,7 +32,8 @@ const Login = () => {
                 </label>
                 <input
                   type="text"
-                  placeholder="password"
+                  placeholder="your password"
+                  name="password"
                   className="input input-bordered"
                 />
                 <label className="label">
@@ -47,6 +50,12 @@ const Login = () => {
                 />
               </div>
             </form>
+            <p className=" text-center text-sm mt-5">
+              New to Car Doctor?
+              <span className="text-[#FF3811] font-semibold">
+                <Link to={"/register"}> Register</Link>
+              </span>
+            </p>
           </div>
         </div>
       </div>
