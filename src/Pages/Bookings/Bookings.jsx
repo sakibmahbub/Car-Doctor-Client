@@ -9,9 +9,14 @@ const Bookings = () => {
   useEffect(() => {
     fetch(url)
       .then((res) => res.json())
-      .then((data) => console.log(data));
+      .then((data) => setBookings(data));
   }, []);
-  return <div></div>;
+  return (
+    <div>
+      <h1>Bookings : {bookings.length}</h1>
+     
+    </div>
+  );
 };
 
 export default Bookings;
