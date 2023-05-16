@@ -25,9 +25,14 @@ const Navbar = () => {
         <Link>Contact</Link>
       </li>
       {user?.email ? (
-        <li>
-          <Link onClick={handleLogout}>Logout</Link>
-        </li>
+        <>
+          <li>
+            <Link to={"/bookings"}>My Bookings</Link>
+          </li>
+          <li>
+            <Link onClick={handleLogout}>Logout</Link>
+          </li>
+        </>
       ) : (
         <li>
           <Link to={"/login"}>Login</Link>
